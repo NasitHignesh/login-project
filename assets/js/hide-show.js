@@ -1,0 +1,21 @@
+
+$(document).ready(function(){
+    $("#email").click(function(){
+        $("#hide").hide();
+    });
+});
+$(document).ready(function(){
+    $("#email").click(function(){
+        $("#smile").show();
+    });
+});
+$(document).ready(function(){
+    $("#password").click(function(){
+        $("#smile").hide();
+    });
+});
+$(document).ready(function(){
+    $("#password").click(function(){
+        $("#hide").show();
+    });
+});

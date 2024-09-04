@@ -1,0 +1,149 @@
+* {
+    margin: 1px;
+    padding: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+	max-width: 425px;
+	width: 100%;
+	background-color: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+	height: auto;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 21px;
+}
+
+.container .content {
+	display: block;
+	/* margin-top: 100px; */
+}
+.container #content {
+	display: block;
+	margin-top: 100px;
+}
+.container .content .value {
+    height: 26px;
+    width: 210px;
+    border-radius: 9px;
+    padding-left: 13px;
+}
+
+.container .content .detail {
+    font-size: 17px;
+}
+
+.container .content .gendercs {
+    height: 16px;
+    width: 16px;
+}
+
+.container .content .row {
+    height: 35px;
+}
+
+.container .content .row .select {
+	width: 231px;
+	height: 30px;
+	padding-left: 47px;
+}
+
+.container .content .row .Register {
+    height: 100%;
+    width: 83%;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    margin: 10px 0px 0px 7px;
+}
+
+.container .content .row .Register:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+.container .content .row .hobby1 .hobb {
+	display: none;
+}
+
+/* login css */
+
+#container {
+	max-width: 425px;
+	width: 100%;
+	background-color: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+	height: 280px;
+}
+.container .images {
+	height: 98px;
+	width: 99px;
+	position: relative;
+	left: 160px;
+	top: -293px;
+}
+
+.container .hide {
+	height: 99px;
+	width: 92px;
+	position: relative;
+	top: -293px;
+	left: 164px;
+	display: none;
+}
+.container .content .row #login {
+	margin-left: 59px;
+}
+
+/* view-data */
+.item {
+	width: 100%;
+	background-color: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+	height: auto;
+}
+.newdata {
+	text-decoration: none;
+	color: white;
+	background-color: brown;
+	height: 19px;
+	border-radius: 5px;
+	/* float: right; */
+}
+
+.page-num {
+	font-size: 24px;
+	text-align: center;
+	margin: 25px;
+}
+.page-num a:hover {
+	color: red;
+}
+.account {
+	margin-left: 115px;
+}

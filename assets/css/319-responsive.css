@@ -1,0 +1,22 @@
+@media (max-width:320px) {
+    .container .hide {
+        height: 79px;
+        width: 73px;
+        position: relative;
+        top: -219px;
+        left: 82px;
+        display: none;
+    }
+
+    .container .images {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 80px;
+        top: -219px;
+    }
+
+    .container .content .row #login {
+        margin-left: -1px;
+    }
+}

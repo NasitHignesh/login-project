@@ -1,0 +1,68 @@
+/* media query */
+@media (max-width:479px) {
+    * {
+        margin: 1px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        max-width: 215px;
+        height: 510px;
+    }
+
+    .container .title {
+        font-size: 20px;
+    }
+
+    .container .content .detail {
+        font-size: 15px;
+        margin-left: -14px;
+    }
+
+    .container .content .value {
+        height: 24px;
+        width: 143px;
+    }
+
+    .container .content .gendercs {
+        height: 14px;
+        width: 14px;
+    }
+
+    .container .content .row .area {
+        width: 157px;
+    }
+
+    .container .content .row .select {
+        width: 166px;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .container .content .row .login {
+        margin-left: -57px;
+        font-size: 15px;
+    }
+    .container .content .row .hobby1 .hobb {
+        display: block;
+        margin: -6px;
+    }
+    .container .images {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 100px;
+        top: -219px;
+    }
+    .container .hide {
+        height: 79px;
+        width: 73px;
+        position: relative;
+        top: -219px;
+        left: 102px;
+        display: none;
+    }
+    .container .content .row .Register {
+        margin: 10px 0px 0px -56px;
+    }
+}
